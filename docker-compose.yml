@@ -37,7 +37,7 @@ services:
     image: "phpmyadmin"
     restart: always
     ports:
-      - "12345:80"
+      - "54321:80"
     environment:
       - PMA_HOST=db
 
