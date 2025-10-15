@@ -2,6 +2,7 @@ services:
 
   backend:
     build: ./apps
+    image: zaxrmdn/simple-apps:v1.1.1.a
     restart: always
     links:
       - db
